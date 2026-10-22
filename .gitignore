@@ -1,0 +1,6 @@
+/build/
+*.exe
+*.o
+/gamelog.txt
+.DS_Store
+Thumbs.db
