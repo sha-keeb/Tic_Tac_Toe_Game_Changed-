@@ -1,6 +1,6 @@
-/build/
+# Build outputs
 *.exe
 *.o
+/tic-tac-toe
+# Runtime output
 /gamelog.txt
-.DS_Store
-Thumbs.db
