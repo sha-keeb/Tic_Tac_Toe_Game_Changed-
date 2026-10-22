@@ -16,14 +16,14 @@ A terminal game exploring C structures, arrays, input handling, game loops, and 
 Install GCC or another C compiler. From the repository directory:
 
 ```sh
-gcc -std=c11 -Wall -Wextra Tic-Tac-Toe.c -o tic-tac-toe
+gcc -std=c11 -Wall -Wextra src/Tic-Tac-Toe.c -o tic-tac-toe
 ./tic-tac-toe
 ```
 
 On Windows with GCC / MinGW:
 
 ```powershell
-gcc -std=c11 -Wall -Wextra Tic-Tac-Toe.c -o tic-tac-toe.exe
+gcc -std=c11 -Wall -Wextra src/Tic-Tac-Toe.c -o tic-tac-toe.exe
 .\tic-tac-toe.exe
 ```
 
@@ -47,7 +47,7 @@ This is a local console program. It has no web requests, login system, passwords
 
 ## Repository organization
 
-Source code is tracked; compiled binaries, object files, and runtime logs are ignored.
+Source code lives in `src/`; example logs live in `examples/`. Source code is tracked; compiled binaries, object files, and runtime logs are ignored.
 An older sample log from [the earlier repository](https://github.com/sha-keeb/Tic-Tac-Toe-Game-) is preserved in `examples/legacy-gamelog.txt`. This repository is the primary project location.
 
 ## Known limitations
