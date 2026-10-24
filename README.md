@@ -1,4 +1,4 @@
-# Tic-Tac-Toe in C
+# Tic-Tac_Toe game
 
 A terminal game exploring C structures, arrays, input handling, game loops, and file I/O.
 
@@ -48,7 +48,7 @@ This is a local console program. It has no web requests, login system, passwords
 ## Repository organization
 
 Source code lives in `src/`; example logs live in `examples/`. Source code is tracked; compiled binaries, object files, and runtime logs are ignored.
-An older sample log from [the earlier repository](https://github.com/sha-keeb/Tic-Tac-Toe-Game-) is preserved in `examples/legacy-gamelog.txt`. This repository is the primary project location.
+An older sample log is preserved in `examples/legacy-gamelog.txt`. This repository is the primary project location.
 
 ## Known limitations
 
